@@ -1,0 +1,47 @@
+/* 
+
+Theme Name: Multipage
+Author: Aminul
+Author URI:https://www.freelanceraminulislam.com
+version: 1.0
+
+Requires at least: 5.0
+Tested up to: 5.4
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: multipage
+This theme, like WordPress, is licensed under the GPL.
+
+*/
+
+.single-blog img {
+	width: 100%;
+	height: 230px !important;
+}
+
+.breadcumb {
+	text-align: center !important;
+	display: inline-block !important;
+	position: relative;
+	color: #fff;
+	background: transparent !important;
+}
+
+#breadcrumb {
+	list-style: none;
+	display: flex;
+	position: relative;
+}
+
+#breadcrumb li {
+	font-size: 18px
+}
+
+#breadcrumb li::after {
+	content: " /";
+}
+
+#breadcrumb li:last-child::after {
+	content: "";
+}
